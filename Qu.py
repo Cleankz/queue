@@ -49,7 +49,7 @@ class Queue:
         return self.stack.pop()
 
     def size(self):
-        return len(self.stack)
+        return self.stack.size()
 
 def round(st,N):
     for i in range(N):
